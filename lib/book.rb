@@ -12,9 +12,9 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-  def genres=(genres)
-    @genres = genres
-    GENRES << genres
+  def genres=(genre)
+    @genre = genre
+    GENRES << genre
   end
 
 end
