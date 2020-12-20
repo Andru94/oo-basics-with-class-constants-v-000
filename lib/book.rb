@@ -14,7 +14,7 @@ class Book
 
   def genre=(genre)
     @genre = genre
-    if GENRES.exclude?(genre):
+    if GENRES.exclude?(genre)
       GENRES << genre
     end
 
